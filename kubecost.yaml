@@ -1,6 +1,6 @@
 ---
 # Source: cost-analyzer/charts/grafana/templates/podsecuritypolicy.yaml
-apiVersion: policy/v1beta1
+apiVersion: extensions/v1beta1
 kind: PodSecurityPolicy
 metadata:
   name: kubecost-grafana
