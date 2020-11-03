@@ -279,7 +279,6 @@ alertmanager:
   securityContext:
     runAsUser: 65534
     runAsNonRoot: true
-    runAsGroup: 65534
     fsGroup: 65534
 
   service:
@@ -858,7 +857,6 @@ server:
   securityContext:
     runAsUser: 65534
     runAsNonRoot: true
-    runAsGroup: 65534
     fsGroup: 65534
 
   service:

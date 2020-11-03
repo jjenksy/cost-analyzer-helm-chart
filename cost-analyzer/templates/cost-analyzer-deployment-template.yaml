@@ -45,7 +45,6 @@ spec:
       {{- else }}
       securityContext:
         runAsUser: 1001
-        runAsGroup: 1001
         fsGroup: 1001
       {{- end }}
       {{- else if lt $nginxPort 1025 }}
@@ -54,7 +53,6 @@ spec:
       {{- else }}
       securityContext:
         runAsUser: 1001
-        runAsGroup: 1001
         fsGroup: 1001
       {{- end }}
       restartPolicy: Always
