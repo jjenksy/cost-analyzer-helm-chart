@@ -1,9 +1,7 @@
 # Kubecost helm chart
-Helm chart for the Kubecost project, which is created to monitor and manage Kubernetes resource spend. Please contact team@kubecost.com or visit [kubecost.com](http://kubecost.com) for more info.
+For of Kubecost project made to work with Kube 1.9
 
-While Helm is the [recommended install path](http://kubecost.com/install), these resources can also be deployed with the following command:<a name="manifest"></a>
-
-`kubectl apply -f https://raw.githubusercontent.com/kubecost/cost-analyzer-helm-chart/master/kubecost.yaml --namespace kubecost`
+`kubectl apply -f https://raw.githubusercontent.com/jjenksy/cost-analyzer-helm-chart/develop/kubecost.yaml --namespace kubecost`
 
 <a name="config-options"></a><br/>
 The following table lists the commonly used configurable parameters of the Kubecost Helm chart and their default values.

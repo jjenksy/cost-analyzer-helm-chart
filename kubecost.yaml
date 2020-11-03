@@ -18964,7 +18964,6 @@ spec:
               readOnly: true
       securityContext:
         fsGroup: 65534
-        runAsGroup: 65534
         runAsNonRoot: true
         runAsUser: 65534
       volumes:
@@ -19059,7 +19058,6 @@ spec:
               subPath: ""
       securityContext:
         fsGroup: 65534
-        runAsGroup: 65534
         runAsNonRoot: true
         runAsUser: 65534
       terminationGracePeriodSeconds: 300
@@ -19106,7 +19104,6 @@ spec:
     spec:
       securityContext:
         runAsUser: 1001
-        runAsGroup: 1001
         fsGroup: 1001
       restartPolicy: Always
       serviceAccountName: kubecost-cost-analyzer
