@@ -1,5 +1,5 @@
 # Kubecost helm chart
-For of Kubecost project made to work with Kube 1.9
+Fork of Kubecost project made to work with Kube 1.9
 
 `kubectl apply -f https://raw.githubusercontent.com/jjenksy/cost-analyzer-helm-chart/develop/kubecost.yaml --namespace kubecost`
 
