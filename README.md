@@ -1,10 +1,15 @@
 # Kubecost helm chart
 Fork of Kubecost project made to work with Kube 1.9
 
+To install on your Cluster:
+Create a namspace called  `kubectl create namespace kubecost`
+
+Install the resources in the new namespace
 `kubectl apply -f https://raw.githubusercontent.com/jjenksy/cost-analyzer-helm-chart/develop/kubecost.yaml --namespace kubecost`
 
-To view:
+To view portforward the kubecost analyzer:
 `kubectl port-forward --namespace kubecost deployment/kubecost-cost-analyzer 9090`
+
 <a name="config-options"></a><br/>
 The following table lists the commonly used configurable parameters of the Kubecost Helm chart and their default values.
 
