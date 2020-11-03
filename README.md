@@ -2,7 +2,7 @@
 Fork of Kubecost project made to work with Kube 1.9
 
 To install on your Cluster:
-Create a namspace called  `kubectl create namespace kubecost`
+Create a namspace called kubecost `kubectl create namespace kubecost`
 
 Install the resources in the new namespace
 `kubectl apply -f https://raw.githubusercontent.com/jjenksy/cost-analyzer-helm-chart/develop/kubecost.yaml --namespace kubecost`
